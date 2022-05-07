@@ -8,6 +8,8 @@
         <members>Account</members>
         <members>Case</members>
         <members>Contact</members>
+        <members>Animal__c</members>
+        <members>Adoption__c</members>
         <name>CustomObject</name>
     </types>
     <types>
