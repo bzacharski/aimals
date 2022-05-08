@@ -10,6 +10,7 @@
         <members>Contact</members>
         <members>Adoption__c</members>
         <members>Animal__c</members>
+        <members>Missing_Animal__c</members>
         <name>CustomObject</name>
     </types>
     <types>
