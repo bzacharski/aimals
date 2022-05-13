@@ -13,7 +13,6 @@
         <members>Adoption__c</members>
         <members>Animal__c</members>
         <members>MissingAnimal__c</members>
-        <members>Opening_Hours__c</members>
         <members>Case</members>
         <members>Contact</members>
         <name>CustomObject</name>
@@ -22,7 +21,6 @@
         <members>Adoption__c</members>
         <members>Animal__c</members>
         <members>MissingAnimal__c</members>
-        <members>Opening_Hours__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -31,7 +29,6 @@
         <members>Adoption__c-Virtual Adoption Layout</members>
         <members>Animal__c-Animal Layout</members>
         <members>MissingAnimal__c-MissingAnimal Layout</members>
-        <members>Opening_Hours__c-Opening Hours Layout</members>
         <members>Account-Account Layout</members>
         <members>Case-Case Layout</members>
         <members>Contact-Contact Layout</members>
