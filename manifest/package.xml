@@ -29,5 +29,13 @@
         <members>pethouse</members>
         <name>ContentAsset</name>
     </types>
+    <types>
+        <members>EmailManager</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
     <version>54.0</version>
 </Package>
