@@ -8,6 +8,9 @@
         <members>Account</members>
         <members>Case</members>
         <members>Contact</members>
+        <members>Adoption__c</members>
+        <members>Animal__c</members>
+        <members>Missing_Animal__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -25,6 +28,14 @@
     <types>
         <members>pethouse</members>
         <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>EmailManager</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
     </types>
     <version>54.0</version>
 </Package>
