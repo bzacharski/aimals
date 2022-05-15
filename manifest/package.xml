@@ -56,5 +56,13 @@
         <members>AImals</members>
         <name>CustomApplication</name>
     </types>
+    <types>
+        <members>accountMap</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Aimals_Account_Page</members>
+        <name>FlexiPage</name>
+    </types>
     <version>54.0</version>
 </Package>
