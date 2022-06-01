@@ -1,0 +1,42 @@
+<template>
+    <div>
+        <lightning-card title="Create PI Contact">
+
+            <template if:true={spinner}>
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </template>
+
+            <lightning-record-edit-form
+                    object-api-name={objectApiName}
+                    record-id={recordId}
+                    onsubmit={handleSubmit}
+                    onsuccess={handleSuccess}
+                    onload={handleLoad}>
+
+                <lightning-layout>
+                    <lightning-layout-item padding="around-small" size="6">
+                        <lightning-input-field field-name="LastName"></lightning-input-field>
+                        <lightning-input-field field-name="Email"></lightning-input-field>
+                        <lightning-input-field field-name="Phone" required></lightning-input-field>
+                    </lightning-layout-item>
+                    <lightning-layout-item padding="around-small" size="6">
+                        <lightning-input-field field-name="Birthdate" onchange={handleBirthDateChange}></lightning-input-field>
+                        <lightning-combobox
+                                name="Job__c"
+                                label={jobLabel}
+                                placeholder="-- Select Progress --"
+                                options={jobOptions}
+                                onchange={handlePicklistChange} ></lightning-combobox>
+                        <lightning-input-field field-name="Job__c" disabled variant="label-hidden"></lightning-input-field>
+                    </lightning-layout-item>
+                </lightning-layout>
+
+                <div class="footer">
+                    <lightning-button variant="brand" type="submit" label="Save" class="slds-m-right_small"></lightning-button>
+                    <lightning-button variant="neutral" label="Cancel" onclick={handleCancel}></lightning-button>
+                </div>
+
+            </lightning-record-edit-form>
+        </lightning-card>
+    </div>
+</template>

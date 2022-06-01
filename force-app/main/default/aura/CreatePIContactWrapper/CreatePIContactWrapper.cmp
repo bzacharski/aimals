@@ -1,0 +1,11 @@
+<aura:component description="CreatePIContactWrapper"
+                implements="lightning:hasPageReference, lightning:actionOverride, force:hasRecordId" >
+
+    <aura:attribute name="recordTypeId" type="String"/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
+    <c:createPiContact recordId="{!v.recordId}"
+                       recordTypeId="{!v.recordTypeId}">
+    </c:createPiContact>
+
+</aura:component>
